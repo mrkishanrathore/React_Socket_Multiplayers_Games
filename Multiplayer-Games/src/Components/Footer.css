@@ -1,0 +1,40 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0 0 0;
+    width: 100%;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footerColumn {
+    width: 30%;
+  }
+  
+  .footerColumn h3 {
+    margin-bottom: 20px;
+  }
+  
+  .footerColumn ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footerColumn ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footerColumn ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footerBottom {
+    background-color: #222;
+    margin-top: 20px;
+    padding: 20px 0;
+    text-align: center;
+  }

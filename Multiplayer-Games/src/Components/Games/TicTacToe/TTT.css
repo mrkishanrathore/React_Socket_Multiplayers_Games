@@ -1,0 +1,79 @@
+.containerTTT {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #0f1B21;
+  color: white;
+  padding: 20px;
+}
+
+.titleTTT {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border: none;
+  margin-right: 6vw;
+}
+
+.gameAreaTTT {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.boardTTT {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 30px;
+  margin: 2vh 10vw;
+  margin-bottom: 5vh;
+}
+
+.boxTTT {
+  display: flex;
+  height: 120px;
+  width: 120px;
+  background: #1f3540;
+  border: 4px solid #0f1B21;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxTTT:hover{
+  background-color: cyan;
+}
+
+.cyan {
+  background-color: rgb(63, 234, 234);
+}
+
+.btnReset {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.messageTTT {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.reset {
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #1f3540;
+  font-size: 26px;
+  color: #26ffcb;
+}
+
+.reset:hover {
+  background: #7db4a7;
+}

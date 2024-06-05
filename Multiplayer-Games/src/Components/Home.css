@@ -1,0 +1,26 @@
+h2{
+    padding: 20px 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.homeContainer{
+  background-color: #0f1B21;
+}
+
+.cardarea{
+    padding: 20px 30px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  min-height: 100vh;
+  background-color: #0f1B21;
+  color: white;
+}

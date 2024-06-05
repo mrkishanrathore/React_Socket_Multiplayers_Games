@@ -1,0 +1,76 @@
+/* src/SnakeGame.css */
+body.no-scroll {
+  overflow: hidden;
+}
+
+.snake-game-container {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0f1B21;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  align-items: center;
+  color: white;
+}
+
+.titleSnake{
+  border: none;
+  padding: 10px;
+}
+
+.gameArea{
+  display: flex;
+  
+}
+
+.board {
+  display: grid;
+  grid-template-rows: repeat(20, 20px);
+  grid-template-columns: repeat(20, 20px);
+  gap: 2px;
+}
+
+.info{
+  padding-left: 50px;
+}
+
+.row-snake {
+  display: contents;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+}
+
+.score{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.score span{
+  color: rgb(20, 232, 20);
+}
+
+.snake {
+  background-color: green;
+}
+
+.food {
+  background-color: red;
+}
+
+.game-over {
+  font-size: 3rem;
+    font-weight: 900;
+    color: red;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    background: #0f1B21;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1;
+}

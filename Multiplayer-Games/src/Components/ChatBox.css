@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background for body */
+}
+
+.chatbox {
+  width: 300px; /* Adjust width as needed */
+  background-color: #2d3436; /* Dark background */
+  border-radius: 5px;
+  height: 350px; /* Adjust height as needed */
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: flex; /* Make container a flex container */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.chat-messages {
+  flex: 1; /* Take up remaining space for scrolling */
+  overflow-y: auto; /* Enable scrolling for chat-messages */
+  padding: 10px; /* Padding for messages */
+  display: flex; /* Enable flex layout */
+  flex-direction: column; /* Stack messages vertically */
+}
+
+.chat-message {
+  background: gray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px; /* Reduce margin for better spacing */
+  display: flex;
+  max-width: 40%;
+  flex-direction: column;
+}
+
+.chat-message.sent {
+  background-color: #4CAF50; /* Green background for sent messages */
+  align-self: flex-end; /* Align sent messages to the right */
+}
+
+.chat-message.received {
+  background-color: gray; /* Light gray background for received messages */
+  align-self: flex-start; /* Align received messages to the left */
+}
+
+.chat-message .sender {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.msgBox {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #444;
+  background-color: #333; /* Dark background for input area */
+}
+
+.msgBox input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 1rem;
+  background-color: #444; /* Darker input background */
+  color: white; /* Light text color */
+}
+
+.msgBox button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.msgBox button:hover {
+  background-color: #0056b3;
+}
